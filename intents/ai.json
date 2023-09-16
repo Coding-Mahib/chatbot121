@@ -1,0 +1,100 @@
+{
+    "intents": [
+        {
+            "tag": "ai-1",
+            "patterns": [
+                "What is the definition of artificial intelligence?",
+                "What is ai?",
+                "What is the definition of ai?"
+            ],
+            "responses": [
+                "Artificial intelligence is the intelligence demonstrated by machines or software, in contrast to the intelligence displayed by humans or animals."
+            ]
+        },
+        {
+            "tag": "ai-2",
+            "patterns": [
+                "What are some examples of AI technology being used in industry?",
+                "tell some example of ai?"
+            ],
+            "responses": [
+                "Some examples of AI technology being used in industry are advanced web search engines, recommendation systems, self-driving cars, and generative or creative tools."
+            ]
+        },
+        {
+            "tag": "ai-3",
+            "patterns": [
+                "When was artificial intelligence founded as an academic discipline?",
+                "When was ai founded as an academic discipline?"
+            ],
+            "responses": [
+                "Artificial intelligence was founded as an academic discipline in 1956."
+            ]
+        },
+        {
+            "tag": "ai-4",
+            "patterns": [
+                "What are some of the traditional goals of AI research?",
+                "What are some of the traditional goals of Artificial Intelligence research?"
+            ],
+            "responses": [
+                "Some of the traditional goals of AI research include reasoning, knowledge representation, planning, learning, natural language processing, perception, and support for robotics."
+            ]
+        },
+        {
+            "tag": "ai-5",
+            "patterns": [
+                "What is general intelligence?",
+                "why is it a long-term goal of AI research?"
+            ],
+            "responses": [
+                "General intelligence is the ability to solve any problem, not just a specific one. It is a long-term goal of AI research because achieving this would mean creating machines that are capable of true human-like reasoning and problem-solving abilities."
+            ]
+        },
+        {
+            "tag": "ai-6",
+            "patterns": [
+                "What are some of the problem-solving techniques used by AI researchers?"
+            ],
+            "responses": [
+                "AI researchers have adapted and integrated a wide range of problem-solving techniques, including search and mathematical optimization, formal logic, artificial neural networks, and methods based on statistics, probability, and economics."
+            ]
+        },
+        {
+            "tag": "ai-7",
+            "patterns": [
+                "What other fields does AI draw upon besides computer science?"
+            ],
+            "responses": [
+                "AI also draws upon psychology, linguistics, philosophy, neuroscience, and many other fields."
+            ]
+        },
+        {
+            "tag": "ai-8",
+            "patterns": [
+                "What is deep learning, and why was it a turning point for AI research?"
+            ],
+            "responses": [
+                "Deep learning is a type of machine learning that uses neural networks with many layers to learn and make decisions. It was a turning point for AI research because it allowed machines to learn and improve on their own, without being explicitly programmed for each task."
+            ]
+        },
+        {
+            "tag": "ai-9",
+            "patterns": [
+                "What are some applications of AI that have become popular in recent years?"
+            ],
+            "responses": [
+                "Some applications of AI that have become popular in recent years are virtual personal assistants like Siri and Alexa, self-driving cars, and AI-generated content like chatbots and art."
+            ]
+        },
+        {
+            "tag": "ai-10",
+            "patterns": [
+                "What are some of the challenges facing AI research today?"
+            ],
+            "responses": [
+                "Some of the challenges facing AI research today include developing machines that are transparent and trustworthy, addressing ethical and social implications of AI, and finding solutions to problems that are difficult to model mathematically, like commonsense reasoning."
+            ]
+        }
+    ]
+}

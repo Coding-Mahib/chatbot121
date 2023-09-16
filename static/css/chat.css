@@ -1,0 +1,87 @@
+/* style.css */
+
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Basic styling for the chat container */
+.chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Chat header styling */
+.chat-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for the chat messages container */
+.chat-messages {
+    max-height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Styling for individual messages */
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Styling for received messages */
+.received {
+    background-color: #f0f0f0;
+    text-align: left;
+}
+
+/* Styling for sent messages */
+.sent {
+    background-color: #080a99b0;
+    color: #fff;
+    text-align: left;
+}
+
+/* Styling for the user input field */
+.chat-input {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#user-message {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#send-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsive styles (adjust as needed) */
+@media (max-width: 768px) {
+    .chat-container {
+        max-width: 100%;
+    }
+    .chat-messages {
+        max-height: 200px;
+    }
+}
